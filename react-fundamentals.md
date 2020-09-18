@@ -3,24 +3,32 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is React?
+React is a Javascript library/framework that is used to create interactive UIs
 
 2.  What is create-react-app?
+create-react-app is a script that creates some simple react boilerplate allowing devs to get started on a project quickly.
 
 3.  What is Component Based Architecture?
+Component-based architecture can be considered a design philosophy that emphasizes seperating blocks of code into modular, reusable components.
 
 4.  What is JSX?
+JSX, also known as Javascript XML allows us to write HTML alongside our React/Javascript code
 
 5.  What is the virtual DOM?
+The virtual DOM is sort of a copy or representation of the real DOM, which React compares against the real DOM to make changes.
 
 6.  What is unidirectional (one-way) data flow?
+Unidirectional data flow in react means that data only flows in one direction.  In React, this is downwards.  
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+Running this command in terminal will create a folder called my-app, and then create a react application boilerplate by installing all the needed dependencies (such as react, reactdom, etc) and setting up some configuartion.
 
 8.  Explain what this code does:
+Displays "lead" next to Time Biles 
 
 ```jsx
 import React from "react";
@@ -39,6 +47,7 @@ export default Mentor;
 ```
 
 9.  Explain how data is passed from a parent component to a child component.
+Using props, you can pass data from a parent component to a child component 
 
 ### Apply
 
